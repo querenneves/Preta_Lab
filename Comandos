@@ -1,0 +1,5 @@
+git branch - quais branches
+
+git checkout -b feature
+
+git checkout feature: para entrar na feature.
