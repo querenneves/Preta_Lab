@@ -11,3 +11,11 @@ git merge feature
 git stash: salva temporariamente alterações não commitadas num "esconderijo" (o "stash"), "limpando" a área de trabalho para que você possa mudar de tarefa ou de branch sem perder o progresso
 
 git stash pop: aplica e remove o stash mais recente da lista, restaurando as alterações no seu diretório de trabalho
+
+git tag v1.0: cria uma tag (etiqueta) no Git, que é um rótulo fixo que aponta para um commit específico no histórico do projeto
+
+git tag -a v2.0.0 -m "Versão estável": legendando tag
+
+git push origin v2.0.0: publicar 
+
+git tag --list : lista tags
