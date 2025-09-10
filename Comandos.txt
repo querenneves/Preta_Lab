@@ -19,3 +19,11 @@ git tag -a v2.0.0 -m "Versão estável": legendando tag
 git push origin v2.0.0: publicar 
 
 git tag --list : lista tags
+
+git config --global alias.st status: define um atalho (um alias) para o comando git status, tornando-o mais curto ao substituir git status por git st em qualquer terminal no seu sistema
+
+git config --global alias.co checkout
+
+git co main: nomeação de branch
+
+git co feature-queren
